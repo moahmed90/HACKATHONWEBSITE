@@ -1,0 +1,75 @@
+main {
+
+  width: 100%;
+  height: calc(100vh - 60px);
+  background-color: navy;
+  margin-top: 0px;
+  background-image: url(IMAGES/202607148961.jpg),url(../HACKTHON/IMAGES/web-development.png);
+  background-size: 150vh,cover;
+  background-repeat: no-repeat;
+  background-position-x:bottom left calc(50% + 80px),center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  column-gap: 220px;
+  
+}
+
+main .main-intro h1 {
+  text-align: left;
+
+  font-size: 70px;
+  line-height: 100px;
+  margin-bottom: 0px;
+ 
+}
+
+main p {
+  text-align: center;
+
+  font-size: 20px;
+  line-height: 30px;
+}
+
+main a {
+  margin-top: 30px;
+  font-size: 18px;
+  display: block;
+  height: 36px;
+  line-height: 36px;
+  background-color: var(--site-color-01);
+  padding: 10px 20px;
+  width: fit-content;
+}
+
+main .main-quotes p {
+  border-left: 4px solid var(--site-color-01);
+} 
+main .main-intro {
+  
+  position: relative;
+  right: 0vh;
+}
+
+.idex-about {
+  width: 100%;
+  padding: 60px 0;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  column-gap: 60px;
+}
+
+.index-about-img img {
+  width: 300px;
+  float: left;
+  border-radius: 20px;
+  
+
+}
+
+.index-about-text {
+  flex-basis: 455px;
+
+}
