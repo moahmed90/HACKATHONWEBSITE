@@ -36,3 +36,4 @@
   /* Revert the 'white-space' property for textarea elements on Safari */
   textarea {
     white-space: revert;
+  }

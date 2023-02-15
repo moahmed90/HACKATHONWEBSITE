@@ -4,7 +4,7 @@ main {
   height: calc(100vh - 60px);
   background-color: navy;
   margin-top: 0px;
-  background-image: url(IMAGES/202607148961.jpg),url(../HACKTHON/IMAGES/web-development.png);
+  background-image: url(IMAGES/202607148961.JPG);
   background-size: 150vh,cover;
   background-repeat: no-repeat;
   background-position-x:bottom left calc(50% + 80px),center;
